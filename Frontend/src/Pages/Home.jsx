@@ -16,6 +16,16 @@ const questions = [
     options: ["useFetch", "useState", "useClass", "useEffectOnly"],
     answer: "useState",
   },
+  {
+  question: "What is the main difference between React and Next.js?",
+  options: [
+    "React is a framework and Next.js is a library",
+    "Next.js is built on top of React and adds features like routing and server-side rendering",
+    "React can only be used with Next.js",
+    "There is no difference"
+  ],
+  answer: "Next.js is built on top of React and adds features like routing and server-side rendering",
+},
 ]
 
 export default function Home() {
